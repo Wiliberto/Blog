@@ -123,3 +123,34 @@ nav .profile-link a{
     font-weight: 700;
     font-size: 1.8rem;
 }
+
+.blogs__main {
+    display: grid;
+}
+
+.blogs__news--container{
+    background-color: #e6e9ed;
+    padding: 0 5rem 4rem;
+}
+
+.blogs__main--new{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs__news--img-container{
+    grid-column: 1;
+}
+
+.blogs__news--img-container img{
+
+}
+
+.blogs__news--info-container{
+    grid-column: 2;
+}
+
+.blogs__news--info-container p{
+    margin-bottom: 3.5rem;
+}
