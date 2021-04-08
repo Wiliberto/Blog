@@ -11,13 +11,21 @@ html{
 }
 
 body{
+    font-size: 2rem;
+    font-family: "Roboto mono", monospace;
+}
+
+.home__body{
     position: fixed;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
-    font-size: 2rem;
-    font-family: "Roboto mono", monospace;
+}
+
+.grid-container{
+    max-width: 120rem;
+    margin: auto;
 }
 
 a{
@@ -104,7 +112,7 @@ nav .profile-link a{
 .home-main-text{
     font-size: 4rem;
     font-weight: 700;
-    line-height: 1rem;
+    line-height: 8rem;
     color: black;
     text-align: center;
     font-family: "Roboto mono", monospace;
@@ -130,7 +138,7 @@ nav .profile-link a{
 
 .blogs__news--container{
     background-color: #e6e9ed;
-    padding: 0 5rem 4rem;
+    padding: 1rem 5rem 4rem;
 }
 
 .blogs__main--new{
@@ -141,10 +149,11 @@ nav .profile-link a{
 
 .blogs__news--img-container{
     grid-column: 1;
+
 }
 
 .blogs__news--img-container img{
-
+    width: 90%;
 }
 
 .blogs__news--info-container{
@@ -154,3 +163,51 @@ nav .profile-link a{
 .blogs__news--info-container p{
     margin-bottom: 3.5rem;
 }
+
+.blogs__post--container{
+    padding: 0 5rem 4rem;
+    text-align: center;
+}
+
+.blogs__post--container h3{
+    border-bottom: 0.1rem solid #cdd2da;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.blogs__button{
+    border: 0.1rem solid #47cfac;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+.blogs__post--container .post__container{
+    display: inline-block;
+    padding-left: 2rem;
+    max-width: 30%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-align: left;
+}
+
+.blogs__post--container .post__container p{
+    margin-bottom: 3.5rem;
+}
+
+.blogs__post--container .post__container img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 12rem;
+    background-color: #22272d;
+    border-top: 4rem solid #47cfac;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    margin-top: 3rem;
+}
+
